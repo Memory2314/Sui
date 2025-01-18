@@ -104,3 +104,5 @@ jobs:
           path: |
             "module/build/outputs/mapping/release"
             "ui/build/outputs/mapping/release"
+      - name: Release
+        uses: softprops/action-gh-release@v2
